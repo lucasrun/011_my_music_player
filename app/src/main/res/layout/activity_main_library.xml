@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.android.a011_my_music_player.MainActivity">
+
+    <ImageView
+        style="@style/background"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        style="@style/title_bar"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/screen_library"
+        style="@style/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/content_button_screen_player"
+        android:text="@string/screen_library" />
+
+    <TextView
+        android:id="@+id/screen_author"
+        style="@style/title_text_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/title_margin"
+        android:contentDescription="@string/content_button_screen_library"
+        android:text="@string/screen_author" />
+
+    <TextView
+        android:id="@+id/screen_player"
+        style="@style/title_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/title_margin"
+        android:contentDescription="@string/content_button_screen_author"
+        android:text="@string/screen_player" />
+
+    <ListView
+        android:id="@+id/music_list"
+        style="@style/general_view"
+        tools:ignore="ContentDescription"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="#99ff0000"
+        android:elevation="100dp"
+        android:text="THIS DATA IS HARDCODED TO BE EASILY REMOVED LATER ON\nMAIN GOAL OF THE APP WAS TO MAKE IT SIMPLE\n\nThis is media library screen.\n\nUser can choose a song to play from his list which was made with the help of list adapter interface. List is static, filled with audio files from the app. After choosing a song user is automaticly moved to player screen and the playback starts. By clicking title text PLAYER user opens player screen. By clicking title text LIBRARY user reopens library screen. By clicking text AUTHOR user opens author screen"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

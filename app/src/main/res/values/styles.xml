@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_marginEnd">@dimen/button_margin_leftright</item>
+        <item name="android:layout_marginStart">@dimen/button_margin_leftright</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:shadowColor">@color/shadow</item>
+        <item name="android:shadowDx">-2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+
+    <style name="view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:layout_marginTop">@dimen/view_margin_top</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="title_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/title_text</item>
+    </style>
+
+    <style name="title_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/title_text</item>
+    </style>
+
+    <style name="background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/background</item>
+    </style>
+
+    <style name="general_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/general_margin</item>
+        <item name="android:layout_marginRight">@dimen/general_margin</item>
+        <item name="android:layout_marginBottom">@dimen/general_margin</item>
+        <item name="android:layout_marginTop">@dimen/general_margin_top</item>
+        <item name="android:background">@color/general_background</item>
+        <item name="android:padding">@dimen/general_padding</item>
+        <item name="android:text">@string/author_info</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/general_text_size</item>
+    </style>
+
+</resources>

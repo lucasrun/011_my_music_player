@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_margin">20dp</dimen>
+    <dimen name="title_text">35sp</dimen>
+
+    <dimen name="view_height">3dp</dimen>
+    <dimen name="view_margin_top">105dp</dimen>
+
+    <dimen name="button_width">160dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_margin_leftright">15dp</dimen>
+    <dimen name="button_margin_top">75dp</dimen>
+    <dimen name="button_text">30sp</dimen>
+
+    <dimen name="general_padding">10dp</dimen>
+    <dimen name="general_margin">10dp</dimen>
+    <dimen name="general_margin_top">60dp</dimen>
+    <dimen name="general_text_size">20sp</dimen>
+</resources>

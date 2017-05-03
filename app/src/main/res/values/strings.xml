@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">011_my_music_player</string>
+    <string name="screen_player">PLAYER</string>
+    <string name="screen_library">LIBRARY</string>
+    <string name="screen_author">AUTHOR</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="stop">STOP</string>
+    <string name="content_button_screen_player">Button - screen PLAYER</string>
+    <string name="content_button_screen_author">Button - screen AUTHOR</string>
+    <string name="content_button_screen_library">Button - screen LIBRARY</string>
+    <string name="content_button_play_music">Button - play music</string>
+    <string name="content_button_pause_music">Button - pause music</string>
+    <string name="content_button_stop_music">Button - stop music</string>
+    <string name="content_button_library">Button - open library</string>
+    <string name="author_info">Hello, my name is Lucas, and I\'m an androholic.\nLicense: Public Domain</string>
+</resources>
